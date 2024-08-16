@@ -1,4 +1,4 @@
-#include <stdio.h>      //EncriptaÁ„o por invers„o de bits
+#include <stdio.h>      //Encripta√ß√£o por invers√£o de bits
 #define MAX 50
 char encode(char *str);
 
@@ -12,7 +12,7 @@ int main(void)
 
 char encode(char *str){
     while(*str){
-        printf("%c", ~*str);
+        printf("%c", ~*str + 10);
         str++;
     }
 }
