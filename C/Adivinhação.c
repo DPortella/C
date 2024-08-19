@@ -16,9 +16,9 @@ scanf("%d", &num);
 
 if(num != adv){
     if(num <= adv)
-        printf("Errou! Tente um numero maior\n");
+        printf("Errou! Tente um numero maior\n\n");
     else
-        printf("Errou! Tente um numero menor\n");
+        printf("Errou! Tente um numero menor\n\n");
 }
 else printf("***CERTO!***");
 }
