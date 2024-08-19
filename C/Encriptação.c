@@ -12,7 +12,7 @@ int main(void)
 
 char encode(char *str){
     while(*str){
-        printf("%c", ~*str + 10);
+        printf("%c", ~*str);
         str++;
     }
 }
