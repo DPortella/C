@@ -20,8 +20,5 @@ int main(void){
 
 void print(char c, int n){
 
-    for (int i = 0; i < n; i++){
-
-        printf ("%c", c);
-    }
+    for (int i = 0; i < n; i++) printf ("%c", c);
 }
