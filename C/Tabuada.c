@@ -12,10 +12,8 @@ cod = 'X';
         printf("Quer ver multiplicado quantas vezes?\n");
         scanf("%d", &vezes);
 
-        for(i = 0; i <= vezes; i++){
+        for(i = 0; i <= vezes; i++) printf("%d x %d = %d\n", numero, i, numero*i);
 
-            printf("%d x %d = %d\n", numero, i, numero*i);
-        }
         printf("Deseja uma nova operacao? Digite 'S' ou 'N'\n");
         cod = getche();
     }
