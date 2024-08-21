@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main(void){
 int i, numero, vezes;
 char cod;
 
@@ -16,5 +16,4 @@ char cod;
         printf("Deseja uma nova operacao? Digite 'S' ou 'N'\n");
         cod = getche();
     }
-    return 0;
 }
