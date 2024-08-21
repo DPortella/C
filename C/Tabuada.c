@@ -4,7 +4,6 @@
 int main(){
 int i, numero, vezes;
 char cod;
-cod = 'X';
 
     while(cod != 'N'){
         printf("\nQual tabuada deseja ver? \n");
