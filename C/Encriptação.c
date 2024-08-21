@@ -15,4 +15,5 @@ char encode(char *str){
         printf("%c", ~*str);
         str++;
     }
+str = '\0';
 }
