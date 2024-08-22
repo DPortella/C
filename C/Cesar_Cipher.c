@@ -1,7 +1,6 @@
 #include <stdio.h>      //Cifra de Cesar
 #include <ctype.h>
 #define MAX 50
-void no_spaces(char *str, int num);
 
 void main(void){
     char s[MAX];
