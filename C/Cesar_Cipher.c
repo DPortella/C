@@ -1,9 +1,9 @@
 #include <stdio.h>      //Cifra de Cesar
 #include <ctype.h>
 #define MAX 50
+void no_spaces(char *str, int num);
 
-void main(void)
-{
+void main(void){
     char s[MAX];
     int key;
     printf("Digite uma frase:\n");
@@ -24,9 +24,9 @@ void main(void)
             if (isdigit(letra)) {
                 letra = (letra - '0' + key) % 10 + '0';
             }
-            if(letra == ' '){
-                printf("%c", letra);
-            }
+        }
+        else{
+            continue;
         }
         printf("%c", letra);
         }
