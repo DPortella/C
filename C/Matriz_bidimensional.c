@@ -8,7 +8,7 @@ for(t=0; t<3; t++)
 
 for(t=0; t<3; t++){
     for(i=0; i<4; i++)
-        printf("%d", num [t][i]);
+        printf("%3d", num [t][i]);
     printf("\n");
 }
 }
