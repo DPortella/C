@@ -14,6 +14,6 @@ char cod;
         for(i = 1; i <= vezes; i++) printf("%d x %d = %d\n", numero, i, numero*i);
 
         printf("Deseja uma nova operacao? Digite 'S' ou 'N'\n");
-        cod = getche();
+        cod = toupper(getche());
     }
 }
