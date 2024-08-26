@@ -12,6 +12,6 @@ int main(){
         num1 = num2;
         num2 = num3;
 
-        printf("%d\n", num3);
+        printf("%u\n", num3);
     }
 }
