@@ -4,7 +4,7 @@ int main(int argc, char *argv[]){
     if(argc == 2){
         num = atoi(argv[1]);
         for(i = 1; i<=num; i++)  fact *= i;
-        printf("%d", fact);
+        printf("%u", fact);
       }  else
         printf("Erro");
     }
