@@ -9,14 +9,12 @@ int main(int argc, char *argv[]){
         lado3 = atoi(argv[3]);
         if(lado1 + lado2 < lado3 || lado1 + lado3 < lado2 || lado3 + lado2 < lado1)
             printf("Isso nao eh um triangulo");
+        else if(lado1 == lado2 && lado1 == lado3)
+            printf("Triangulo equilatero.");
+        else if(lado1 != lado2 && lado1 != lado3 && lado2 != lado3)
+            printf("Triangulo escaleno.");
         else
-            if(lado1 == lado2 && lado1 == lado3)
-                printf("Triangulo equilatero.");
-            else
-                if(lado1 != lado2 && lado1 != lado3 && lado2 != lado3)
-                    printf("Triangulo escaleno.");
-                else
-                    printf("Triangulo isosceles.");
+            printf("Triangulo isosceles.");
     }
     else
         printf("Erro! Numero de argumentos incorreto, forneca os 3 lados do triangulo.");
