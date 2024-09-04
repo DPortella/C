@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 void main(void){
 int num;
 int adv;
-srand(time(NULL));
+srand(10);
 
 adv = rand();
 
@@ -16,7 +15,7 @@ scanf("%d", &num);
 
 if(num != adv){
     num <= adv ? printf("Errou! Tente um numero maior\n\n"): printf("Errou! Tente um numero menor\n\n");
-}
+        }
 else printf("***CERTO!***");
-}
+    }
 }
