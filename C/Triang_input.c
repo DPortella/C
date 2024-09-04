@@ -11,11 +11,10 @@ int main(void){
     }
         if(lado[0] + lado[1] < lado[2] || lado[0] + lado[2] < lado[1] || lado[2] + lado[1] < lado[0])
             printf("Isso nao eh um triangulo");
+        else if(lado[0] == lado[1] && lado[0] == lado[2])
+            printf("Triangulo equilatero.");
         else
-            if(lado[0] == lado[1] && lado[0] == lado[2])
-                printf("Triangulo equilatero.");
-            else
-                lado[0] != lado[1] && lado[0] != lado[2] && lado[1] != lado[2] ? printf("Triangulo escaleno."): printf("Triangulo isosceles.");
+            lado[0] != lado[1] && lado[0] != lado[2] && lado[1] != lado[2] ? printf("Triangulo escaleno."): printf("Triangulo isosceles.");
 
     return 0;
 }
