@@ -16,4 +16,5 @@ int main(int argc, char *argv[]){
     }
     else
         printf("Erro! Numero de argumentos incorreto, forneca os 3 lados do triangulo.");
+    return 0;
 }
