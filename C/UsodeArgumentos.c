@@ -12,5 +12,5 @@ int main(int argc, char *argv[])
         mes<1 || mes>12 ? printf("Erro, mes invalido"): printf("\n%s de %s de 20%s \n", argv[1], nomemes[mes -1], argv[3]);
     }
     else
-        printf("Erro! Os numeros devem ser inteiros!");
+        printf("Erro! Use dia, mes e ano com numeros inteiros.");
 }
